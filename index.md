@@ -1,37 +1,83 @@
-## Welcome to GitHub Pages
+### 名词解释
+---
+- 资金时间价值：是指**同样数额的资金**在**不同的时间点**上**具有不同的价值**。资金的时间价值随着时间的推移而发生变化，引起变化的原因有通货膨胀、承担风险和货币增值三个方面。 
+- **现金流量图**:任何一个项目，在建设、生产经营过程中，总有资金的流入和流出，如把项目资金的流入和流出情况，按照它们发生的时间，标绘在图上，这个图就叫做现金流量图 。
+- 时值:一笔资金在**不同的时点**上**具有不同的数值**，这些不同的数值就叫做这笔资金在不同时点上的时值，用T表示。 
+- 等值:在**不同的时点**上的**两笔不同数额的资金具有相同的经济价值**。
+- 现值：发生在（或折算为）**某一特定时间序列起点的费用或效益**，用P表示。
+- 终值：发生在（或折算为）**某一特定时间序列终点的费用或效益**，用F表示。
+- 年金：按照**固定的、间隔时间相等的期间**，**陆续支付或领取**的一系列**同额款项**，用A表示。(注意先付年金和后付年金)
+- 财务评价:财务评价是**研究项目对投资各方主体的净贡献**，是从**企业财务**角度分析和评价项目的可行性。
+- 国民经济评价：国民经济评价是**研究项目对国民经济的净贡献**，是站在**国民经济总体平衡角度**来评价和分析项目的可行性。
+- 折旧:是指**在固定资产使用寿命内**，按照确定的方法对**应计折旧额进行系统分摊**。
+- 固定资产:是指**归企业所拥有的、作为生产经营的手段或条件**，**不以出售为目的**的**有形长期资产**。
+- 流动资产：是指为**维持正常生产经营活动**，用于**购买劳动对象**、**支付工资**及**其他生产经营费用**所必不可少的周转资金。
+- 无形资产：是指**没有物质实体**，但却**可使拥有者长期受益的资产**。无形资产主要包括专有技术、专利权、商标权、著作权、土地使用权、经营特许权、商誉权等等。
+- 递延资产:是指**不能全部计入当年损益**，**应当在以后年度内分期摊销的各项费用**。它包括开办费、固定资产改良支出、租入固定资产的改良支出以及摊销期限在1年以上的其他待摊费用。
+- 净现值：将建设项目各年的净现金流量按行业基准收益率（ic）折算到建设起点的现值之和。![image](http://p.ananas.chaoxing.com/star3/origin/8f4fa8a08c513df79258ce32894b2608.png)
+- 内部收益率:内部收益率（internal rate of return,简称IRR）又称内部（含）报酬率。![image](http://p.ananas.chaoxing.com/star3/origin/4f0add598f42d77a1616b2f6ad06ad53.png)![image](http://p.ananas.chaoxing.com/star3/origin/fce506add26fda93c2e4946af3ce6d82.png)
+- 资产负债率:是**衡量企业利用债权人提供资金进行经营活动的能力**，以及反映债权人发放贷款的安全程度的一种财务指标 。![image](http://p.ananas.chaoxing.com/star3/origin/f0bb63a313769169d9113d66c6ed4de2.png)
+- 流动比率：
+- 速动比率:
+- 借款偿还期：
+- 静态投资回收期:静态投资回收期是指通过项目的净收益来回收总投资所需要的时间。![image](http://p.ananas.chaoxing.com/star3/origin/9109298131ebec29b67360a03ce02df2.png)
+- 动态投资回收期：动态投资回收期是按现值法计算的投资回收期。![image](http://p.ananas.chaoxing.com/star3/origin/28a87fbb54331353178bac69570c39a1.png)
+- 资本金利润率:资本金利润率是衡量投资者投入企业资本金获利能力的一种财务指标。![image](http://p.ananas.chaoxing.com/star3/origin/9d0ac9d8231677b40b626dc42f3bf280.png)
+- 预测:预测是**在已有**的大量的**统计资料**的基础上，**根据科学的方法**和现在的**发展趋势**去**推测探索**某种**事物的未来发展趋势**的方法。
+- 决策:在**工程项目的规划与实施过程中**，为**达到**某一**目标**，在**许多可行**的行动**方案中**，根据所获得的数据及现实状态，而**择优选择行动方案**的过程。
+- 可行性研究：可行性研究又称可行性分析技术，是在**投资决策前**，对**项目**有关的社会、经济和技术等**各方面情况**进行深入细致的**调查研究**；对各种可能拟定的建设方案和技术方案进行认真的**技术经济分析与比较论证**；并**对项目建成后的经济效益**进行**科学的预测和评价**。 
+- 价值工程:是**通过**各相关领域的**协作**，**对所研究对象**的**功能和费用**进行**系统分析**、**持续创新**，旨在**提高所研究对象价值的管理思想和管理技术** 。
+- 有形磨损：有形磨损指设备在使用（或闲置）过程中**所发生的实体的磨损**，亦称为物质磨损。
+- 无形磨损:无形磨损不是由于在生产过程中的使用或自然力的作用造成的，它不表现为设备实体的变化，而**表现为设备原始价值的贬值**。 
+- 自然寿命：自然寿命也称物质寿命，是由有形磨损所决定的设备的使用寿命，**指**一台**设备**从**全新状态**开始使用，产生有形磨损，造成设备逐渐老化、损坏、**直至报废所经历的全部时间**。
+- 折旧寿命(根据自己理解写):折旧寿命设备的折旧寿命并不是设备的使用寿命，但是是以设备的使用寿命为依据的。各个国家根据不同类别的固定资产的情况分别规定了各种固定资产的折旧年限。
+- 经济寿命：经济寿命指**从安置投入使用开始**，到**因继续使用在经济上已不合理而被更新所经历的时间**。一般是指由设备开始使用到其年平均使用成本最低年份的延续时间长短。
+- 融资租赁:融资租赁的租费总额通常足以补偿设备全部价值，并且租约到期之前不得解除，期满后租赁设备的所有权无偿或低于其余值转让给承租人，租赁期内设备的维修保养、保险等费用均由承租人负责。
+- 经营租赁：经营租赁一般由设备所有者（出租人）负责设备的维修、保养与保险，租赁的期限一定小于设备的寿命期，出租人和承租人通过订立租约维系租赁业务，承租人有权在租赁期限内预先通知出租人后解除租约。
 
-You can use the [editor on GitHub](https://github.com/black-giser/pic/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/black-giser/pic/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### 简答题
+---
+- 工程经济学分析的基本原则:
+    - 资金的时间价值原则
+    - 现金流量原则
+    - 增量分析原则
+    - 机会成本原则
+    - 有无对比原则
+    - 可比性原则
+    - 风险收益的权衡原则
+- 财务评价与国民经济评价的异同点：
+    - 相同之处
+        - 评价目的相同
+        - 评价基础相同
+        - 计算期相同
+    - 不同之处
+        - 评价角度不同
+        - 费用和收益范围不同
+        - 费用和收益的划分不同
+        - 采用的价格不同
+        - 评价的参数不同
+- 敏感性分析的步骤
+    - 
+- 可行性研究的作用
+    - 可行性研究是工业项目建设的依据
+    - 是向银行贷款或筹资的依据
+    - 是工程设计的依据
+    - 是向当地政府和环境部门申请建设执照的文件
+    - 是与有关部门互订协议、签订合同的依据
+    - 是本工程建设的基础资料
+    - 作为拟采用新技术、新设备研制计划的依据 
+    - 作为企业安排项目计划和实施的依据
+- 根据价值工程提高价值的途径
+    - 提高功能，降低成本，大幅度提高价值。这是提高价值的最理想途径。
+    - 功能不变，降低成本，提高价值。
+    - 成本不变，提高功能，提高价值。
+    - 成本稍有增加，但功能大幅度提高，使价值提高。
+    - 功能稍有降低，而成本大幅度降低，从而提高价值。 
+- 头脑风暴法的原则
+    - 严格限制问题范围
+    - 不能对别人的意见提出怀疑和批评
+    - 发言要精炼
+    - 不允许带发言稿
+    - 鼓励对已经提出的设想进行改进和综合
+    - 鼓励参加者解除思想顾虑
+- 德尔菲法的程序![image](http://p.ananas.chaoxing.com/star3/origin/f4224d495fdde5556914fe03504fdffa.png)
